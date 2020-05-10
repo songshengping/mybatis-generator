@@ -42,7 +42,7 @@
         </javaTypeResolver>
 	    
 	    <!-- 生成实体类地址 -->
-        <javaModelGenerator targetPackage="com.song.p7.platform.model" targetProject="${project}" >
+        <javaModelGenerator targetPackage="com.song.p7.platform.pojo" targetProject="${project}" >
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
